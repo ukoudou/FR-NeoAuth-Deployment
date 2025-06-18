@@ -54,9 +54,8 @@ if __name__ == "__main__":
 
 print("⚠️ Note: Please update the image paths below with your own test images.")
 
-# Replace these with your own image paths
-    img1 = preprocess_image("path/to/your/image1.jpg", transform)
-    img2 = preprocess_image("path/to/your/image2.jpg", transform)
+    img1 = preprocess_image("sample_images/Aaron_Sorkin_0001.jpg.png", transform) # Replace with your own image paths
+    img2 = preprocess_image("sample_images/Aaron_Guiel_0001.jpg.png", transform) # Replace with your own image paths
 
     score = cosine_similarity(model, img1, img2, device)
     print(f"Cosine similarity between {image1_path} and {image2_path}: {score:.4f}")

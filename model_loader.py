@@ -43,9 +43,9 @@ transformation_pipeline = T.Compose([
 
 
 # Example usage of the transformation pipeline
-# Replace these with your own image paths before running
-img1_path = "path/to/your/image1.jpg"
-img2_path = "path/to/your/image2.jpg"
+
+img1_path = "sample_images/Aaron_Sorkin_0001.jpg.png" # Replace with your own image paths before running
+img2_path = "sample_images/Aaron_Eckhart_0001.jpg.png" # Replace with your own image paths before running
 
 print("⚠️ Note: Please update img1_path and img2_path to point to your own test images.")
 
